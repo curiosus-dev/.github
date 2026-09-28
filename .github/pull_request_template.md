@@ -5,6 +5,7 @@
 ## Checklist
 
 - [ ] Tests added or updated
-- [ ] `CHANGELOG.md` of every changed package updated (`## [Unreleased]`, breaking changes marked with **Breaking:**)
+- [ ] `CHANGELOG.md` of every changed package updated (`## [Unreleased]`, added on top if missing; breaking changes marked with **Breaking:**)
 - [ ] Public API changes have XML docs
 - [ ] `dotnet cake` passes locally
+- [ ] The title follows [Conventional Commits](https://www.conventionalcommits.org) (`feat(scope): ...`, `fix!: ...`)
