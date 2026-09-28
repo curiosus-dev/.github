@@ -1,0 +1,43 @@
+name: Bug report
+description: Something doesn't work as documented.
+labels: [ bug ]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report! Security issues go to the [security policy](https://github.com/curiosus-dev/.github/blob/main/SECURITY.md), not here.
+  - type: input
+    id: package
+    attributes:
+      label: Package and version
+      placeholder: Curiosus.Migrations 5.0.0
+    validations:
+      required: true
+  - type: input
+    id: runtime
+    attributes:
+      label: .NET version and OS
+      placeholder: .NET 10.0.1, Ubuntu 24.04
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: Include the exception with its stack trace, if any.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: A minimal code sample or project that reproduces the problem.
+      render: csharp
+    validations:
+      required: true
