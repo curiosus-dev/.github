@@ -28,7 +28,8 @@ The required .NET SDK versions are listed in the repository README.
 4. Follow the code style: `.editorconfig` in the repository is the source of truth (4 spaces, 130 characters per line,
    nullable reference types, XML docs on public APIs).
 5. Add an entry to the package `CHANGELOG.md` under `## [Unreleased]` in [Keep a Changelog](https://keepachangelog.com)
-   format. Breaking changes are marked with **Breaking:**.
+   format (`### Added`, `### Changed`, `### Fixed`, ...). If there is no `## [Unreleased]` section yet, add it on top,
+   above the latest version. Breaking changes are marked with **Breaking:**.
 6. Don't add version sections to the CHANGELOG: the package version comes from its top `## [x.y.z]` section,
    maintainers add it when releasing.
 7. Title the pull request in the [Conventional Commits](https://www.conventionalcommits.org) format
