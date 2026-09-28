@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/curiosus-dev/.github/main/branding/curiosus-logo-512.png" width="96" alt="Curiosus" align="right">
+
 # Curiosus
 
 Open-source .NET libraries, published on [nuget.org](https://www.nuget.org/profiles/curiosus-dev).
@@ -9,6 +11,8 @@ Open-source .NET libraries, published on [nuget.org](https://www.nuget.org/profi
 | [Curiosus.TelegramBot](https://github.com/curiosus-dev/Curiosus.TelegramBot) | `Curiosus.TelegramBot` | Infrastructure for Telegram bots: command dispatching, multi-step state, persistent update queue |
 
 Formerly published as `Curiosity.*` by SIIS Ltd and as `Markeli.TelegramBot`.
+
+Maintained by [Maxim Markelow (@markeli)](https://github.com/markeli).
 
 [Contributing](https://github.com/curiosus-dev/.github/blob/main/CONTRIBUTING.md) ·
 [Security policy](https://github.com/curiosus-dev/.github/blob/main/SECURITY.md)
