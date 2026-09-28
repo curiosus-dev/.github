@@ -29,15 +29,20 @@ The required .NET SDK versions are listed in the repository README.
    nullable reference types, XML docs on public APIs).
 5. Add an entry to the package `CHANGELOG.md` under `## [Unreleased]` in [Keep a Changelog](https://keepachangelog.com)
    format. Breaking changes are marked with **Breaking:**.
-6. Don't bump package versions: maintainers do it when releasing.
+6. Don't add version sections to the CHANGELOG: the package version comes from its top `## [x.y.z]` section,
+   maintainers add it when releasing.
+7. Title the pull request in the [Conventional Commits](https://www.conventionalcommits.org) format
+   (`fix(email.smtp): validate server certificates`), the merge commit takes it. Breaking changes get `!` after the type.
 
 CI must be green before a pull request is merged. Workflow runs from first-time contributors need a maintainer's
 approval, so the first run may take a while to start.
 
 ## Releases
 
-Maintainers release by bumping the package version and dating the CHANGELOG section. Merging to the default branch
-publishes new versions to nuget.org and creates GitHub releases.
+Packages follow [Semantic Versioning](https://semver.org). The CHANGELOG is the only place for a version: maintainers
+release a package by turning its `## [Unreleased]` section into `## [x.y.z] - yyyy-mm-dd`. Merging to the default branch
+publishes every version that is not on nuget.org yet and creates a tag and a GitHub release with the section as notes.
+The pull request build summary lists the packages the merge will release.
 
 ## License
 

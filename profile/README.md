@@ -1,6 +1,8 @@
-<img src="https://raw.githubusercontent.com/curiosus-dev/.github/main/branding/curiosus-logo-512.png" width="96" alt="Curiosus" align="right">
+<p align="center">
+  <img src="https://raw.githubusercontent.com/curiosus-dev/.github/main/branding/curiosus-logo-512.png" width="96" alt="Curiosus logo">
+</p>
 
-# Curiosus
+<h1 align="center">Curiosus</h1>
 
 Open-source .NET libraries, published on [nuget.org](https://www.nuget.org/profiles/curiosus-dev).
 
